@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Imagem Flexível</title>
+</head>    
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>
+        Você está vendo a imagem completa?Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F600; <!--Para adicionarmos um emoji, devemos colocar os seguintes comandos: &#x--> 
+    </p>
+    <picture>
+        <source media="(min-width: 1250px)" srcset="imagens-006/paisagem-g.png" type="image/png">
+        <source media="(min-width: 790px)" srcset="imagens-006/paisagem-m.png" type="image/png">
+        <img src="imagens-006/paisagem-p.png" alt="Imagem flexível">
+    </picture>
+    <!--<img src="imagens-006/paisagem-p.png" alt="pequena">
+    <img src="imagens-006/paisagem-m.png" alt="media">
+    <img src="imagens-006/paisagem-g.png" alt="grande">-->
+</body>
+</html>
