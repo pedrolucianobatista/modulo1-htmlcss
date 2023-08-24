@@ -2,7 +2,7 @@
  
     Curso de HTML5 e CSS3 do CursoemVideo
 
-    <a href="">Desafio</a>
+    Desafio
 
     Estou aprendendo a criar sites e agora vou gerencia meus repositórios!
     
