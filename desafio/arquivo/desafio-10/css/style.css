@@ -32,8 +32,8 @@ header {
 
 h1 {
     font-family: var(--fonte1);
-    padding-top: 45px;
-    font-size: 4em;
+    padding-top: 70px;
+    font-size: 3em;
 }
 
 /* Configurações para o cabeçalho*/
@@ -43,10 +43,19 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+
+}
+
 h4 {
     margin-top: -80px;
     font-size: 0.5em;
     text-align: center;
+}
+
+.excessao {
+    margin-left: 15px;
 }
 
 .first {
@@ -60,6 +69,8 @@ h4 {
 .quadrado1 {
     background-color: rgba(0, 0, 0, 0.47);
     max-width: 60%;
+    margin-left: 20px;
+    padding-left: 5px;
 }
 
 .second {
@@ -68,13 +79,24 @@ h4 {
     color: white;
     background-attachment: fixed;
     height: 1000px;
+
 }
 
 .quadrado2 {
     background-color: rgba(0, 0, 0, 0.47);
     max-width: 60%;
+    margin-left: 20px;
+    padding-left: 5px;
 }
 
 pre {
     font-family: var(--fonte2);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 0.5em;
+    text-align: center;
+    height: 25px;
 }
