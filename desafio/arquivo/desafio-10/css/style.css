@@ -9,11 +9,13 @@
     --fonte1: 'Passion One', 'cursive';
     --fonte2: 'Sriracha', cursive;  
     --fonte3: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
 }
 
 /*verdana*/
 
 body {
+    background-color: white;
     font-family: var(--fonte3);
     margin: 0px;
     padding: 0px;
