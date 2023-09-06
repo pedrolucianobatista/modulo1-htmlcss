@@ -6,7 +6,26 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center; 
+    background-color: black;
 }
 
+.outside {
+    position: relative;
+    background-color: transparent;
+    height: 97vh;
+}
+
+.inside {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+
 /* Depois procurar o shorthand para o background-image*/
+/* Commitar apenas quando estiver 100 porcento atualizado, e com mensagens claras no commit*/
 
