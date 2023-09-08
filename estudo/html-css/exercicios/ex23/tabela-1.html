@@ -4,6 +4,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=deice-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        tr.linha {
+            background-color: rgba(226, 173, 230, 0.393);
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        td.dado {
+            background-color: yellow;
+        }
+    </style>
 </head>    
 <body>
     <h1>Minha primeira tabela</h1>
@@ -16,26 +39,33 @@
     -->
     <table>
         <tr> <!-- Primeira linha hehe-->
-            <td>A1</td>
-            <td>B1</td>
-            <td>C1</td>
+            <td class="dado">A1
+            <td>B1
+            <td>C1
         </tr>
-        <tr> <!-- Segunda linha hehe-->
-            <td>A2</td>
-            <td>B2</td>
-            <td>C2</td>
+        <tr class="linha"> <!-- Segunda linha hehe-->
+            <td>A2
+            <td>B2
+            <td>C2
         </tr>
         <!-- Cada td representará um dado da tabela-->
         <tr>
-            <td>A3</td>
-            <td>B3</td>
-            <td>C3</td>
+            <td>A3
+            <td>B3
+            <td>C3
         </tr>
         <tr>
-            <td>A4</td>
-            <td>B4</td>
-            <td>C4</td>
+            <td>A4
+            <td>B4
+            <td>C4
         </tr>
-    </table>
+        <tr>
+            <td>A5</td>
+            <td>B5</td>
+        </tr> 
+        <tr>
+            <td>A6</td>
+        </tr>
+    </table> 
 </body>
 </html>
